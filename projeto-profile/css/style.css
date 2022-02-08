@@ -120,3 +120,38 @@ footer {
   height: 32px;
   margin: 10px;
 }
+
+@media(min-width: 576px) {
+
+  html {
+    font-size: 20px;
+  }
+}
+
+@media(min-width: 768px) {
+  .nav-container {
+    display: flex;
+  }
+
+  html {
+    font-size: 24px;
+  }
+
+  .portifolio-item{
+    width: 280px;
+  }
+
+  .nav-main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-brand{
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+
+  .menu-items li {
+    font-size: 18px;
+  }
+}
